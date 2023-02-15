@@ -1,0 +1,40 @@
+body {
+    background-color: #eee;
+    color: #555;
+    line-height: 1.5;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #333;
+}
+
+.main-container {
+    display: flex;
+    margin: 0 auto;
+    padding: 1em 4em 0em 4em;
+    max-width: 100em;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.info-container {
+    display: flow-root;
+    margin-right: 1em;
+}
+
+.info {
+    display: flow-root;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: white;
+    min-width: 20em;
+    box-shadow: 2px 2px #ddd;
+    border-radius: 4px;
+}
+
+.l-item {
+    margin-top: 10px;
+}
